@@ -9,9 +9,30 @@
       to top,
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.5) 50%
-    )
-    url(4k.jpg);
+    ),
+    url(4.jpg);
   background-position: center;
   background-size: cover;
   height: 109vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: chocolate;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  float: left;
+  padding-top: 10px;
 }
