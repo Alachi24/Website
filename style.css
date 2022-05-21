@@ -70,9 +70,9 @@ ul li a:hover {
 }
 
 .search {
-  width: 330px;
+  width: 300px;
   float: left;
-  margin-left: 270px;
+  margin-left: 250px;
 }
 
 .srch {
@@ -89,4 +89,66 @@ ul li a:hover {
   padding: 15px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40%;
+  background: chocolate;
+  border: 2px solid chocolate;
+  margin-top: 13px;
+  color: beige;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: beige;
+  position: relative;
+}
+
+.content .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-left: 10px;
+  margin-top: 0.5%;
+  letter-spacing: 2px;
+}
+
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background: chocolate;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content .cn a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
 }
