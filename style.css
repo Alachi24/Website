@@ -215,3 +215,39 @@ ul li a:hover {
   color: beige;
   font-family: "Times New Roman", Times, serif;
 }
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: chocolate;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: beige;
+  transition: 0.4s ease;
+}
+
+.btnn:hover {
+  background: beige;
+  color: chocolate;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form .link {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: chocolate;
+}
