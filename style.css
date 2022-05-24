@@ -83,17 +83,17 @@ ul li a:hover {
   border: 1px solid chocolate;
   margin-top: 13px;
   color: beige;
-  border: none;
+  border-right: none;
   font-size: 16px;
   float: left;
-  padding: 15px;
+  padding: 10px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .btn {
   width: 100px;
-  height: 40%;
+  height: 40px;
   background: chocolate;
   border: 2px solid chocolate;
   margin-top: 13px;
@@ -131,7 +131,6 @@ ul li a:hover {
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   padding-left: 10px;
-  margin-top: 0.5%;
   letter-spacing: 2px;
 }
 
@@ -256,4 +255,29 @@ ul li a:hover {
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.social {
+  position: absolute;
+  top: 355px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  filter: invert(1);
+  margin-right: 25px;
+  transform: scale(0.5);
+  transition: 0.3s ease;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(+15px);
 }
